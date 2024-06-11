@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="demo">id="demo"的p元素</p>
+  <p id="demo1">点击按钮修改后id="demo"的p元素</p>
+  <button onclick="myFunction()">点我</button>
+  <script>
+    function myFunction(){
+      //获取文档中 id="demo" 的元素
+      document.querySelector("#demo").innerHTML='Hello word';
+      // 获取文档中第一个 <p> 元素
+      document.querySelector("p").style.backgroundColor="red";
+    }
+  </script>
+</body>
+</html>
