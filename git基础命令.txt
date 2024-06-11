@@ -1,0 +1,9 @@
+1.创建git仓库的第一步：在需要上传的项目目录下打开Git Bash，进行项目初始化。
+git init
+2.第二步：将需要上传的文件添加到Git仓库的暂存区
+git add . 添加所有文件
+git add filename 添加指定文件
+3.第三步：提交更改
+git commit -m "提交备注"
+4.第四步：推送本地仓库到远程仓库
+git push -u origin master
